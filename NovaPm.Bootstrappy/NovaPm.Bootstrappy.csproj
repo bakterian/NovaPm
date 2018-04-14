@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ninject" Version="3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NovaPm.Control\NovaPm.Control.csproj" />
+    <ProjectReference Include="..\NovaPm.Infrastructure\NovaPm.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

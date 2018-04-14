@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.2.1" />
+    <PackageReference Include="ninject" Version="3.3.4" />
+    <PackageReference Include="System.IO.Ports" Version="4.4.0-preview2-25405-01" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NovaPm.Infrastructure\NovaPm.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>System</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

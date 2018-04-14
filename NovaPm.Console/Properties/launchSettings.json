@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "NovaPm.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "-c -p \"COM6\""
+    },
+    "Providing Log Files": {
+      "commandName": "Project",
+      "commandLineArgs": "-l \"D:\\5_GITHUB\\NovaPm\\NovaPm.PublishPackage\\CapturedData.log\""
+    },
+    "NoCmdArgsTestsHelp": {
+      "commandName": "Project"
+    }
+  }
+}
